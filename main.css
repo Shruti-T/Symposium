@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  align-items: right;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul {
+  align-items: center;
+}
+
+/* .btn {
+  background: rgba(167, 32, 129, 0.31);
+  color: black;
+  border: 0;
+  padding-right: 5%;
+} */
+
+.navSection {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.18);
+  color: black;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  padding-left: 30px;
+}
+.active a {
+  background-color: grey !important;
+}
+#sec-1:hover {
+  color: #2b73cf;
+  text-decoration: underline;
+}
+#sec-2:hover {
+  color: #2bbbcf;
+  text-decoration: underline;
+}
+#sec-3:hover {
+  color: #43b991;
+  text-decoration: underline;
+}
+#sec-4:hover {
+  color: #434191;
+  text-decoration: underline;
+}
+#sec-5:hover {
+  color: #2b73cf;
+  text-decoration: underline;
+}
+
+/* HOME SECTION --Starts */
+
+.item {
+  width: 100%;
+  padding: 50px;
+  height: 580px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.home {
+  background-image: url(./images/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+#homeText {
+  margin: 20px;
+  font-family: "Roboto Slab", serif;
+}
+#homeText h2 {
+  font-size: 50px;
+  color: #10a3e5;
+}
+
+.registerBtn {
+  border: 1.5px solid #2b73cf;
+  border-radius: 30px;
+  background-color: #2b73cf;
+  padding: 15px 50px;
+  color: white;
+  font-weight: 2px;
+  font-size: large;
+}
+
+.registerBtn:hover {
+  color: white;
+  background-color: #2bbbcf;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border-color: #2bbbcf;
+  text-decoration: none;
+}
+
+.timerSec {
+  font-size: 40px;
+}
+
+/* ABOUT US */
+.about {
+  background-image: url(./images/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+/* TRACKS*/
+.tracksInfo {
+  background-image: url(./images/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
