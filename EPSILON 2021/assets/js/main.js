@@ -106,7 +106,7 @@ sr.reveal(`.home__data, .home__img,
     interval: 200
 })
 
-// TIMER
+/*==================== TIMER ====================*/
 // Set the date we're counting down to
 var countDownDate = new Date("Apr 2, 2021 18:18:00").getTime();
 
@@ -126,11 +126,20 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("minutes").innerHTML = minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
+//   document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+//   + minutes + "m " + seconds + "s ";
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("days").innerHTML = "00";
+    document.getElementById("hours").innerHTML = "00";
+    document.getElementById("minutes").innerHTML = "00";
+    document.getElementById("seconds").innerHTML = "00";
+
   }
 }, 1000);

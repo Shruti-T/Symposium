@@ -22,16 +22,15 @@
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                  <a href="#" class="nav__logo"><img src="./image/logo.png" width="130" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+                  <a href="#" class="nav__logo"><img src="./image/logo.png" width="130"class="d-inline-block align-top" alt="" loading="lazy">
                 </a>
-
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Tracks</a></li>
-                        <li class="nav__item"><a href="#menu" class="nav__link">Schedule</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active-link nav1">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link nav2">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link nav3">Tracks</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link nav4">Schedule</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link nav5">Contact us</a></li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
@@ -45,16 +44,52 @@
 
         <main class="l-main">
             <!--========== HOME ==========-->
-            <section class="home" id="home">
+            <section class="home" id="home" >
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
                         <h1 class="home__title">EPSILON 2021</h1>
-                        <h2 class="home__subtitle"> <p id="timer" class="timerSec"></p></h2>
-                        
+                        <p id="timer" class="timerSec">
+                            <div class="d-flex justify-content-center mt-4 mb-5 timer">
+                            <div class="days">
+                                <h2 class="value" style="color: #4BAAE5; padding: 0 0.2em;" id="days">
+                                  00
+                                </h2>
+                                <h4>
+                                  DAYS
+                                </h4>
+                              </div>
+                              <div class="hours">
+                                <h2 class="value" style="color:#4BAAE5;" id="hours">
+                                  00
+                                </h2>
+                                <h4>
+                                  HOURS
+                                </h4>
+                              </div>
+                              <div class="minutes">
+                                <h2 class="value" style="color: #4BAAE5;" id="minutes">
+                                  00
+                                </h2>
+                                <h4>
+                                  MINUTES
+                                </h4>
+                              </div>
+                              <div class="seconds">
+                                <h2 class="value" style="color: #4BAAE5;" id="seconds">
+                                  00
+                                </h2>
+                                <h4>
+                                  SECONDS
+                                </h4>
+                              </div>
+                            </div>
+                        </p>
+                        </h2>
                         <a href="#" class="button">Register</a>
                     </div>
-    
-                    <img src="image/AweithoutBG.png" alt="" class="home__img">
+                <div class="home__data">
+                    <img src="image/homeImg.png" alt="" class="home__img">
+                </div>
                 </div>
             </section>
             
@@ -68,7 +103,7 @@
                         <a href="#" class="button">Explore history</a>
                     </div>
 
-                    <img src="image/withoutBG.png" alt="" class="about__img">
+                    <img src="image/aboutImg.png" alt="" class="about__img">
                 </div>
             </section>
 
@@ -303,6 +338,67 @@
                     </div>
                 </div>
             </section>
+
+            <!-- ============TIMELINE=============== -->
+            <section class="menu section bd-container" id="menu">
+                <h2 class="section-title">Schedule</h2>
+                <div class="timeline">
+                  <div class="container left">
+                    <div class="content">
+                      <h2>2017</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                  <div class="container right">
+                    <div class="content">
+                      <h2>2016</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                  <div class="container left">
+                    <div class="content">
+                      <h2>2015</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                  <div class="container right">
+                    <div class="content">
+                      <h2>2012</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                  <div class="container left">
+                    <div class="content">
+                      <h2>2011</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                  <div class="container right">
+                    <div class="content">
+                      <h2>2007</h2>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="container left">
+                    <div class="content">
+                      <h2>2017</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                  <div class="container right">
+                    <div class="content">
+                      <h2>2016</h2>
+                      <p>Lorem ipsum dolor sit amet fh 4ifh34o f4</p>
+                    </div>
+                  </div>
+                  <div class="container left">
+                    <div class="content">
+                      <h2>2015</h2>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </div>
+                </div>
+                </section>
 
             <!--========== MENU ==========-->
             <section class="menu section bd-container" id="menu">
