@@ -282,6 +282,7 @@ img {
   font-size: var(--biggest-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+  margin-top: 50px;
 }
 
 .home__img {
