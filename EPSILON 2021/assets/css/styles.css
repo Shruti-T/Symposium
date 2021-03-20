@@ -439,8 +439,8 @@ img {
 
 /*========== APP ==========*/
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #6cc2a1;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -452,12 +452,12 @@ img {
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: rgb(161, 226, 152);
 }
 
 .accordion:after {
   content: '\002B';
-  color: #777;
+  color: rgb(182, 221, 137);
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -469,10 +469,11 @@ img {
 
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: rgb(182, 221, 137);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  color: black;
 }
 .app__data {
   text-align: center;
