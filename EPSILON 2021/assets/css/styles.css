@@ -815,7 +815,27 @@ img {
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgba(43, 115, 209, 0.2) transparent transparent;
+    /* border-color: transparent rgba(43, 115, 209, 0.2) transparent transparent; */
+  }
+
+  .arrow1::before {
+    border-color: transparent #1bbf87 transparent transparent;
+  }
+  .ar1::before {
+    border-color: transparent #1bbf87 transparent transparent;
+  }
+
+  .arrow2::before {
+    border-color: transparent #2aa7c6 transparent transparent;
+  }
+  .ar2::before {
+    border-color: transparent #2aa7c6 transparent transparent;
+  }
+  .arrow3::before {
+    border-color: transparent #9b5ae3 transparent transparent;
+  }
+  .ar3::before {
+    border-color: transparent #9b5ae3 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
